@@ -18,7 +18,14 @@ section {
     background: lightgray;
 }
 
-div#msg {
+div#msg1 {
+    margin-bottom: 8px;
+    text-align: center;
+    color: blue;
+    margin: 0;
+}
+
+div#msg2 {
     margin-bottom: 8px;
     text-align: center;
 } 

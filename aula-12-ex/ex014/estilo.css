@@ -8,6 +8,10 @@ header {
     text-align: center;
 }
 
+h1 {
+    text-decoration: underline;
+}
+
 section {
     background: white;
     border-radius: 15px;

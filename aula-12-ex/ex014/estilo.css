@@ -23,6 +23,7 @@ div#msg1 {
     text-align: center;
     color: blue;
     margin: 0;
+    font-style: bold;
 }
 
 div#msg2 {

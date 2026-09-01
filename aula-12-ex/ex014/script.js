@@ -5,11 +5,17 @@ function carregar() {
     var img = window.document.getElementById('imagem')
     var data = new Date()
     var horas = data.getHours()
+    var verbo = ''
+    if (horas > 1 ) {
+        verbo = 'são'
+    } else {
+        verbo = 'é'
+    }
     var minutos = data.getMinutes()
     if (minutos < 10) {
-        msg3.innerHTML = `Agora são ${horas}h0${minutos}min.`
+        msg3.innerHTML = `Agora ${verbo} ${horas}h0${minutos}min.`
     } else {
-        msg3.innerHTML = `Agora são ${horas}h${minutos}min.`
+        msg3.innerHTML = `Agora ${verbo} ${horas}h${minutos}min.`
     }
     if (horas >= 0 && horas < 6) {
         msg1.innerHTML = 'BOA MADRUGADA!!'

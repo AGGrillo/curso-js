@@ -4,8 +4,7 @@ function carregar() {
     var msg3 = window.document.getElementById('msg3')
     var img = window.document.getElementById('imagem')
     var data = new Date()
-//    var horas = data.getHours()
-horas = 0
+    var horas = data.getHours()
     var minutos = data.getMinutes()
     if (minutos < 10) {
         msg3.innerHTML = `Agora são ${horas}h0${minutos}min.`

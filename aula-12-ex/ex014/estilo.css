@@ -1,11 +1,13 @@
-body#corpo {
+body {
     background: rgb(120, 120, 230);
     font: normal 15pt Arial;
-    display: grid;
+    position: relative;
 }
 
-section#secprinc {
-    justify-content: center;
+section#secao1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
 }
 
 header {
@@ -19,7 +21,7 @@ h1 {
     font-style: italic;
 }
 
-section#secsecund {
+section#secao2 {
     background: white;
     border-radius: 15px;
     padding: 15px;

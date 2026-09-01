@@ -25,7 +25,7 @@ function carregar() {
         msg1.innerHTML = 'BOA TARDE!!'
         msg2.innerHTML = 'Tenha uma excelente tarde!'
         img.src = 'foto-tarde.jpg'
-        document.body.style.background = 'blue'
+        document.body.style.background = 'lightblue'
     } else {
         msg1.innerHTML = 'BOA NOITE!!'
         msg2.innerHTML = 'Tenha uma excelente noite!'

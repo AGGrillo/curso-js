@@ -39,18 +39,18 @@ section {
 }
 
 div#msg1 {
-    margin-bottom: 8px;
     text-align: center;
     color: blue;
     margin: 0;
     font-weight: bold;
     margin-bottom: 8px;
+    text-decoration: underline;
 }
 
 div#msg2 {
-    margin-bottom: 8px;
     text-align: center;
     color: darkred;
+    margin-bottom: 8px;
 }
 
 div#msg3 {

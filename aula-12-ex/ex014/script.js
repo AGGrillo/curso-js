@@ -39,5 +39,3 @@ function carregar() {
         document.body.style.background = 'darkblue'
     }
 }
-
-carregar()

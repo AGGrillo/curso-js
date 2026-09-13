@@ -10,7 +10,7 @@ function contar() {
     if (ini.value.length == 0 || fim.value.length == 0 || passo.value.length == 0) {
         result.innerHTML = 'Impossível contar!'
     } else if (i == f) {
-        window.alert('INÍCIO e FIM idênticos!')
+        result.innerHTML = 'Início e Fim idênticos!'
     } else {
         if (p <= 0) {
             window.alert('Passo inválido! Considerando PASSO 1.')

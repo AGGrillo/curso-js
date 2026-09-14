@@ -5,7 +5,7 @@ function tabuada() {
     if (num.value.length == 0) {
         window.alert('Por favor, digite um número!')
         let item = document.createElement('option')
-        item.text = 'Digite um número...'
+        item.text = 'Digite um número acima'
         tab.appendChild(item)
     } else {
         let n = Number(num.value)

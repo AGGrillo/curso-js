@@ -1,3 +1,8 @@
+function focar() {
+    primElemento = document.getElementById('txti')
+    primElemento.focus()
+}
+
 function contar() {
     let ini = document.getElementById('txti')
     let fim = document.getElementById('txtf')
@@ -29,3 +34,20 @@ function contar() {
         result.innerHTML += `\u{1F3C1}`
     }
 }
+
+window.document.addEventListener('keypress',
+function(evento) {
+    if (evento.key == 'Enter') {
+        const seletores = 'input, [tabindex="0"]'
+        const elementosFocaveis = Array.from(document.querySelectorAll(seletores))
+        const elementoAtual = document.activeElement
+        if (elementosFocaveis.includes(elementoAtual)) {
+//            evento.preventDefault()
+            const indiceAtivo = elementosFocaveis.indexOf(elementoAtual)
+            const proximoIndice = indiceAtivo + 1
+            if (proximoIndice < elementosFocaveis.length) {
+                elementosFocaveis[proximoIndice].focus()
+            }
+        }
+    } 
+})

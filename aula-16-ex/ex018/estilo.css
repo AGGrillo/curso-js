@@ -17,8 +17,7 @@ section {
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.541);
     background: aquamarine;
-    width: 430px;
-
+    width: 358px;
 }
 
 section > div > input#fnum, section > div > select#flista {
@@ -26,7 +25,7 @@ section > div > input#fnum, section > div > select#flista {
 }
 
 section > div > input#fnum {
-    width: 100px;
+    width: 50px;
 }
 
 select#flista {

@@ -4,8 +4,9 @@ body {
 }
 
 header {
-    color: white;
+    color: rgb(255, 192, 241);
     text-align: center;
+    text-decoration: underline;
 }
 
 section {
@@ -15,9 +16,15 @@ section {
     width: 500px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.541);
+    background: aquamarine;
+}
+
+section > div > input#fnum, section > div > select#flista {
+    background: rgb(255, 255, 165);
 }
 
 select#flista {
+    height: 200px;
     width: 150px;
 }
 
@@ -25,4 +32,8 @@ footer {
     color: white;
     text-align: center;
     font-style: italic;
+}
+
+footer > p > span.ano {
+    color: rgb(255, 192, 241);
 }

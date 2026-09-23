@@ -14,10 +14,12 @@
         <div>
             Número (entre 1 e 100):
             <input type="number" name="fnum" id="fnum">
-            <input type="button" value="Adicionar" onclick="adicionar()"><br><br>
-            <select name="flista" id="flista" size="6"></select><br>
-            <input type="button" value="Finalizar" onclick="finalizar()">
-            <input type="button" value="Excluir Item" onclick="excluirItem()">
+            <input type="button" value="Adicionar" onclick="adicionar()"><br>
+            <select name="flista" id="flista" size="6"></select>
+            <div id="div-botoes">
+                <input type="button" value="Finalizar" onclick="finalizar()">
+                <input type="button" value="Excluir Item" onclick="excluirItem()">
+            </div>    
         </div>
         <div id="result"></div>
     </section>

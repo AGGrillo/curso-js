@@ -31,6 +31,15 @@ section > div > input#fnum {
 select#flista {
     height: 200px;
     width: 150px;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+}
+
+div#div-botoes {    
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
 }
 
 footer {

@@ -60,3 +60,14 @@ function finalizar() {
         result.innerHTML += `<p>A média dos valores cadastrados é ${media}.</p>`
     }
 }
+
+function excluirItem() {
+    if (lista.length == 0) {
+        window.alert('Lista vazia!')
+    } else {
+        let i = lista.selectedIndex  
+        lista.remove(i)
+        valores.splice(i, 1)
+        result.innerHTML = ''
+    }
+}

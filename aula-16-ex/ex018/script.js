@@ -61,13 +61,17 @@ function finalizar() {
     }
 }
 
-function excluirItem() {
+function excluirItem() { 
     if (lista.length == 0) {
         window.alert('Lista vazia!')
     } else {
-        let i = lista.selectedIndex  
-        lista.remove(i)
-        valores.splice(i, 1)
-        result.innerHTML = ''
+        let i = lista.selectedIndex
+        if (i == -1) {
+            window.alert('Selecione um item!')
+        } else { 
+            lista.remove(i)
+            valores.splice(i, 1)
+            result.innerHTML = ''
+        }    
     }
 }
